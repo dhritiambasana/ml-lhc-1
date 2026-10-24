@@ -1,0 +1,15 @@
+******* Path of CSV files*********************
+
+dataset-20210607T020316Z-001\dataset\postLinks.csv
+dataset-20210607T020316Z-001\dataset\posts_long.csv
+dataset-20210607T020316Z-001\dataset\posts_short.csv
+
+dataset-20210607T020316Z-002\dataset\users.csv
+
+dataset-20210607T020316Z-003\dataset\post_history
+
+******** Path of Json file*******************
+
+dataset-20210607T020316Z-001\dataset\postLinks.json
+
+dataset-20210607T020316Z-002\dataset\posts_long.json
