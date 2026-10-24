@@ -1,0 +1,6 @@
+{
+  "questions_path": "/run/media/mini/Data/marwadi-uni/sem-5/ml/lhc-1/model/data/questions-prepared.csv",
+  "question_count": 676204,
+  "features": "word 1-2 grams + character 3-5 grams",
+  "similarity": "cosine similarity (computed by linear_kernel for normalized TF-IDF vectors)"
+}

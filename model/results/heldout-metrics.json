@@ -1,0 +1,18 @@
+{
+  "question_count_total": 676204,
+  "search_corpus_count": 676004,
+  "training_duplicate_pairs": 800,
+  "test_duplicate_pairs_requested": 200,
+  "test_duplicate_pairs_evaluated": 200,
+  "test_size": 0.2,
+  "random_state": 42,
+  "max_duplicate_pairs": 1000,
+  "method": "Word TF-IDF (1-2 grams), max 100000 features, float32",
+  "recall_at_k": {
+    "1": 0.19,
+    "5": 0.415,
+    "10": 0.545
+  },
+  "mean_reciprocal_rank": 0.2905,
+  "interpretation": "Test duplicate query questions are excluded from the search corpus. Only pairs whose linked master remains in the corpus are evaluated. This is a held-out-query split, not a fully time-based or entity-independent benchmark; related or near-identical questions can still appear in the corpus."
+}

@@ -273,3 +273,25 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 >>>>>>> origin/main
+
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model artifacts: large and reproducible
+model/results/*.joblib
+model/results/*.pkl
+
+# Keep evaluation results under version control
+!model/results/*.csv
+!model/results/*.json
+
+# Keep prepared datasets only if intentionally committing them
+# model/data/*.csv
+
+# Generated model data
+model/data/
+model/results/*.joblib

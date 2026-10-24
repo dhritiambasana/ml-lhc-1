@@ -1,0 +1,12 @@
+{
+  "evaluated_duplicate_pairs": 1000,
+  "question_count": 676204,
+  "feature_count": 100000,
+  "method": "Word TF-IDF, 1-2 grams, max 100000 features",
+  "recall_at_k": {
+    "1": 0.209,
+    "5": 0.41,
+    "10": 0.512
+  },
+  "limitation": "This is a sampled retrieval evaluation. The corpus includes the evaluated questions, although each query is excluded from its own results. Unlinked pairs are not assumed to be negatives."
+}
